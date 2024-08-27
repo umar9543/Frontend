@@ -1,0 +1,150 @@
+.back {
+  background-image: url('/public/6.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  /* margin-top: 500px; */
+
+}
+
+
+@media (max-width: 1080px) {
+  .res {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 180px;
+    right: 10px;
+
+  }
+
+  .resp {
+    margin-top: -250px;
+
+    font-size: 40px;
+  }
+
+  .media2 {
+
+
+    height: 350px;
+    width: 150px;
+    margin-top: -200px;
+  }
+
+  .main {
+    margin-left: -200px;
+  }
+}
+
+
+
+@media (min-width: 1920px) {
+  .text {
+    font-size: 72px;
+  }
+  .res {
+    width: 50px;
+    height: 170px;
+    position: relative;
+    left: -25px;
+    top: -450px;
+  }
+  /* .media{
+      height: ;
+    } */
+  .media2 {
+
+
+    height: 700px;
+    width: 350px;
+    margin-left: 100px;
+  }
+
+  .main {
+    margin-left: -200px;
+  }
+ 
+}
+
+
+@media (max-width: 768px) {
+  .res {
+    width: 50px;
+    height: 70px;
+    position: relative;
+    left: -25px;
+    top: -150px;
+  }
+
+  .resp {
+    margin-top: -200px;
+
+    font-size: 20px;
+
+  }
+
+  .box {
+    height: 50px;
+    width: 150px;
+    margin-left: -60px;
+  }
+
+  .media2 {
+
+
+    height: 200px;
+    width: 100px;
+    margin-top: -200px;
+  }
+
+  .main {
+    margin-left: -200px;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  .text {
+    font-size: 100px;
+  }
+
+  /* .media{
+          height: ;
+        } */
+  .media2 {
+
+
+    height: 600px;
+    width: 300px;
+    margin-left: 50px;
+    margin-top: -50px;
+  }
+
+  .main {
+    margin-left: -200px;
+  }
+
+  .res {
+    width: 80px;
+    height: 100px;
+    position: relative;
+    left: -25px;
+    top: -250px;
+  }
+
+  .resp {
+    margin-top: -200px;
+
+    font-size: 45px;
+
+  }
+
+  .box {
+    height: 100px;
+    width: 400px;
+    margin-left: -10px;
+
+  }
+}
